@@ -7,8 +7,7 @@ const date = require(__dirname + "/date.js");
 
 // mongoose.connect("mongodb://0.0.0.0:27017/todolistDB"); ////connecting with db local
 //MongoDB Atlas connection
-//url from atlas:  mongodb+srv://shreyanshi:<password>@todo.20iunad.mongodb.net/?retryWrites=true&w=majority
-mongoose.connect("mongodb+srv://shreyanshi:usaMIE15141305@todo.20iunad.mongodb.net/todolistDB");
+mongoose.connect("(hidden_url)");
 
 const app = express();
 
